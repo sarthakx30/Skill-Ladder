@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+}
+body{
+    background: linear-gradient(rgba(242,238,227,255),rgb(148, 172, 250));
+    min-height: 100vh;
+}
+.questionsheet{
+    background-color: rgb(205, 245, 255);
+    color: rgb(0, 0, 0);
+    margin: 40px 70px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: rgb(7, 114, 255);
+    margin-bottom: 15px;
+}
+h1{
+    font-size: 50px;
+}
