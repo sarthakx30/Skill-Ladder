@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
-    font-size: large;
+    font-size: 22px;
 }
 body{
     background: linear-gradient(rgba(242,238,227,255),rgb(148, 172, 250));
@@ -13,6 +13,7 @@ body{
     background-color: rgb(205, 245, 255);
     color: rgb(0, 0, 0);
     margin: 40px 70px;
+    border-radius: 10px;
 }
 .heading{
     display: flex;
@@ -21,7 +22,24 @@ body{
     padding-bottom: 15px;
     background-color: rgb(7, 114, 255);
     margin-bottom: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 h1{
     font-size: 50px;
+}
+.question1, .question2, .question3, .question4, .question5, .question6, .question7, .question8, .question9, .question10, .question11, .question12, .question13, .question14, .question15{
+    margin: 15px 10px;
+}
+form{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#submitfill{
+    margin: 10px 50%;
+    background: rgb(7, 114, 255);
+    padding: 6px;
+    border: none;
+    font-weight: 800;
+    border-radius: 5px;
 }
