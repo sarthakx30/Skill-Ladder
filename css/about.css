@@ -2,36 +2,52 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
-.course-section {
+h2{
+    margin: 50px;
     text-align: center;
 }
 
-.courses {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+#add_symbol,.price{
+    color: rgb(86, 115, 210);
+    font-size: 22px;
 }
 
-.course {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid rgb(86,115,210);
-    border-radius:10px;
+.plans{
+    display:flex;
+}
+
+.plan{
+    background-color: rgba(242,238,227,0.5);
+    backdrop-filter: blur(4.5px);
     margin: 10px;
-    padding:5px;
-    text-align: center;
+    padding: 15px;
+    width:30%;
     transition: all 0.3s ease;
 }
 
-.course:hover{
-    color: rgb(86,115,210);
-    box-shadow: 0px 0px 10px rgba(86,115,210);
+.plan:hover{
+    box-shadow: 0 0 10px rgb(86,115,210);
+    color:rgb(86, 115, 210);
 }
 
-.course-img {
-    width: 200px;
-    height: 150px;
-    margin: 10px;
+button{
+    background-color: rgba(0,0,0,0);
+    border : 1px solid rgb(86, 115, 210);
+    font-size: 16px;
+    margin-left: 40px;
+    color:rgb(86, 115, 210);
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px rgb(86,115,210);
+    border: 2px solid rgb(86, 115, 210);
+}
+
+p{
+    padding: 10px;
 }
 
 nav {
@@ -110,9 +126,6 @@ nav img:hover {
 }
 
 @media(max-width:768px){
-    .courses{
-        grid-template-columns: repeat(2,1fr);
-    }
     nav{
         padding: 15px 20px;
     }
